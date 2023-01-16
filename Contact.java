@@ -1,9 +1,8 @@
 package com.bridgelabz.day9.UC_AddressBook;
 
 import java.util.Scanner;
-
 public class Contact {
-    ////variables representation////
+	 ////variables representation////
     String firstName;
     String lastName;
     String address;
@@ -32,5 +31,10 @@ public class Contact {
         this.email = scan.nextLine();
         System.out.println("Enter zip : ");
         this.zip = scan.nextLine();
+    }
+    @Override
+    public String toString() {
+        return "Contact [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", city=" + city
+                + ", state=" + state + ", phoneNumber=" + phoneNumber + ", email=" + email + ", zip=" + zip + "]";
     }
 }
