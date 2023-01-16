@@ -1,8 +1,6 @@
 package com.bridgelabz.day9.UC_AddressBook;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
+import java.util.*;
 public class BookList {
 	static ArrayList<AddressBook> books=new ArrayList<AddressBook>();
 
@@ -130,5 +128,4 @@ public class BookList {
         }
         return result;
     }
-
 }
