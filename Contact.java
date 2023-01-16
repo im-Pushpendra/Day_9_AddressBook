@@ -1,8 +1,9 @@
 package com.bridgelabz.day9.UC_AddressBook;
 
-import java.util.*;
+import java.util.Scanner;
+
 public class Contact {
-	 ////variables representation////
+    ////variables representation////
     String firstName;
     String lastName;
     String address;
