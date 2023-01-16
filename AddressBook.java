@@ -28,7 +28,6 @@ public class AddressBook {
 		contact.setZip(sc.nextInt());
 		System.out.println("Enter your Mobile Number: ");
 		contact.setMobile(sc.nextLong());
-
 		contactsArrayList.add(contact);
 	}
 
