@@ -11,8 +11,8 @@ public class AddressBookMain {
 		Scanner sc = new Scanner(System.in);
 
 		do {
-			System.out.println("1. ADD CONTACT \n2. DISPLAY CONTACT  \n3.EDIT CONTACT");
-			System.out.println("Enter the Operation Number");
+			System.out.println("1. ADD CONTACT \n2. DISPLAY CONTACT  \n3.EDIT CONTACT \n4.DELETE CONTACT \n");
+			System.out.println("Enter the Choice Number");
 			option = sc.nextInt();
 
 			switch (option) {
@@ -25,11 +25,14 @@ public class AddressBookMain {
 			case 3:
 				addressBook.editContact();
 				break;
+			case 4:
+				addressBook.deleteContact();
+				break;
 			default:
 				System.out.println("Wrong Operation Number");
 				break;
 			}
-		} while (option < 4);
+		} while (option < 5);
 
 	}
 
